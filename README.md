@@ -210,5 +210,3 @@ python examples/advanced_usage.py
 
 
 ---
-
-Built with ❤️ using Google AI Studio API, Streamlit, and Python.
