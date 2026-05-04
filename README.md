@@ -4,21 +4,21 @@ Built a multiagent Study Mode AI platform using OpenAI SDK and Xero MCP Server, 
 
 An AI-powered study assistant application built with a Mixture of Experts (MoE) approach using Google AI Studio API. This application provides intelligent study support through multiple specialized AI agents working together.
 
-## 🌟 Features
+## Features
 
-- **🤖 Multiple AI Agents**: Specialized agents for different tasks
+- **Multiple AI Agents**: Specialized agents for different tasks
   - Data Processing Agent: Convert text to structured formats
   - Data Preprocessing Agent: Clean and preprocess data
   - Model Suggestion Agent: Recommend appropriate AI models
   - Parallel Inference Agent: Run multiple models simultaneously
 
-- **🧠 Mixture of Experts (MoE)**: Intelligent task routing and agent orchestration
-- **💬 Chatbot Interface**: User-friendly Streamlit-based interface
-- **📊 Data Analysis**: Comprehensive data processing and analysis capabilities
-- **⚡ Parallel Processing**: Efficient multi-model inference
-- **🔧 MCP Server**: Model Context Protocol for agent communication
+- **Mixture of Experts (MoE)**: Intelligent task routing and agent orchestration
+- **Chatbot Interface**: User-friendly Streamlit-based interface
+- **Data Analysis**: Comprehensive data processing and analysis capabilities
+- **Parallel Processing**: Efficient multi-model inference
+- **MCP Server**: Model Context Protocol for agent communication
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ An AI-powered study assistant application built with a Mixture of Experts (MoE) 
    streamlit run app.py
    ```
 
-## 📖 Usage Examples
+## Usage Examples
 
 ### Basic Usage
 
@@ -116,7 +116,7 @@ async def parallel_inference():
 asyncio.run(parallel_inference())
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Core Components
 
@@ -158,7 +158,7 @@ asyncio.run(parallel_inference())
 - Performance monitoring
 - Error handling
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -178,7 +178,7 @@ The application supports multiple Google AI models:
 - `gemini-pro-vision`: Multimodal (text + images)
 - `gemini-ultra`: Advanced reasoning and analysis
 
-## 📊 Performance Monitoring
+## Performance Monitoring
 
 The application includes comprehensive performance monitoring:
 
@@ -188,7 +188,7 @@ The application includes comprehensive performance monitoring:
 - Execution time analysis
 - Health status checks
 
-## 🧪 Testing
+##  Testing
 
 Run the example scripts to test functionality:
 
@@ -200,7 +200,7 @@ python examples/basic_usage.py
 python examples/advanced_usage.py
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -208,25 +208,6 @@ python examples/advanced_usage.py
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the examples directory for usage patterns
-- Review the configuration documentation
-
-## 🔮 Future Enhancements
-
-- [ ] Additional AI model integrations
-- [ ] Enhanced visualization capabilities
-- [ ] Real-time collaboration features
-- [ ] Advanced analytics dashboard
-- [ ] API endpoint development
-- [ ] Docker containerization
 
 ---
 
